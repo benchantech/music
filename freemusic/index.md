@@ -2,15 +2,6 @@
 Right click and choose Save As
 <br/>
 <br/>
-<div style="float: left; padding: 0 20px 0 20px">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- benchanmusic sidebar -->
-<ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-6543946757233630" data-ad-slot="5579322418"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-<div style="float: left">
 <!--iframe src="https://gleam.io/18NWm/first-50-patreon-members-only-3month-40-off" frameBorder="0" allowfullscreen></iframe>
 <br /><br /-->
 <a href="1-09 Wind Scene 600ad 1.jpg">1-09 Wind Scene 600ad 1.jpg</a>
@@ -1237,4 +1228,3 @@ Right click and choose Save As
 <br/>
 <a href="zorbasdance_dg.zip">zorbasdance_dg.zip</a>
 <br/>
-</div>
