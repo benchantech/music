@@ -1,8 +1,8 @@
 # Site settings
-title: BenchanTech
+title: Ben Chan Music
 description: >-
-  Exploring tech, music, language, and more.
-url: "https://benchantech.com"
+  Free sheet music.
+url: "https://benchanmusic.com"
 baseurl: ""
 
 # Build settings
@@ -17,8 +17,6 @@ permalink: /:categories/:title/
 # Header navigation
 header_pages:
   - index.md
-  - about.md
-  - blog.md
 
 # Custom includes
 include:
@@ -30,9 +28,9 @@ minima:
   skin: classic
   social_links:
     github: benchantech
-    linkedin: your-linkedin
-    youtube: your-channel
-    email: contact@benchantech.com
+    linkedin: benchantech
+    youtube: benchanmusic
+    email: ben@benchantech.com
 
 # Plugins
 plugins:
