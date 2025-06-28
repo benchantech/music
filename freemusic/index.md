@@ -22,4 +22,4 @@ I was never threatened except by my own ethical self. This is part of a broader 
 
 Thanks for understanding. If you're here to learn or teach music the right way, follow me on YouTube and let's take this journey together.
 
-[https://www.youtube.com/benchanviolin](https://www.youtube.com/benchanviolin)
+[https://www.youtube.com/benchanmusic](https://www.youtube.com/benchanmusic)
