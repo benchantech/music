@@ -1,3 +1,8 @@
+---
+title: Where Did the Sheet Music Go?
+layout: default
+---
+
 ## 🎼 Where Did the Sheet Music Go?
 
 For years, I shared sheet music I had transcribed by ear — mostly from recordings, sometimes from memory — because I wanted to help others learn and play. But I've decided to take them all down.
