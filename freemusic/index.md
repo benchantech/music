@@ -11,7 +11,7 @@ For years, I shared sheet music I had transcribed by ear — mostly from recordi
 
 Even if I never copied from a physical score, my transcriptions were still derivative works of copyrighted music. That matters. It matters to the composers, arrangers, publishers, and performers who rely on the integrity of that system to make a living.
 
-I’ve spent over 100 hours studying copyright, licensing, and the ethical use of AI and music. That clarity now guides everything I share. Not just the parts that are convenient.
+I've spent the past several months studying copyright, licensing, and the ethical use of AI and music. That clarity now guides everything I share. Not just the parts that are convenient.
 
 So, I’ve taken down the downloadable sheet music files.
 
