@@ -5,7 +5,7 @@ layout: default
 
 ### 🎻 Violin Arrangements
 
-[Happy Birthday (arranged live on YouTube)](/arrangements/violin/happy_birthday.pdf)
+[Happy Birthday](/arrangements/violin/happy_birthday.pdf)  (arranged live on [YouTube](https://www.youtube.com/live/7CxuaINAyGk))
 
 <hr />
 
