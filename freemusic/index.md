@@ -1,9 +1,15 @@
 ---
-title: Where Did the Sheet Music Go?
+title: Sheet Music | Ben Chan
 layout: default
 ---
 
-### 🎼 Where Did the Sheet Music Go?
+### 🎻 Violin Arrangements
+
+[Happy Birthday (arranged live on YouTube)](/arrangements/violin/happy_birthday.pdf)
+
+<hr />
+
+### Where Did the rest of the Sheet Music Go?
 
 For years, I shared sheet music I had transcribed by ear — mostly from recordings, sometimes from memory — because I wanted to help others learn and play. But I've decided to take them all down.
 
