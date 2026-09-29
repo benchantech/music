@@ -20,7 +20,6 @@ header_pages:
 
 # Custom includes
 include:
-  - _includes/head-custom.html
   - assets/images
 
 # Minima theme customization

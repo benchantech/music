@@ -1,2 +1,72 @@
 <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+
+<!-- Google Analytics 4 with Consent Mode v2. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F36FJ1EGTZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  const analyticsConsentKey = "bcm_analytics_consent";
+  let analyticsConsent = null;
+
+  try {
+    analyticsConsent = window.localStorage.getItem(analyticsConsentKey);
+  } catch (_) {
+    analyticsConsent = null;
+  }
+
+  if (analyticsConsent !== "granted" && analyticsConsent !== "denied") {
+    analyticsConsent = null;
+  }
+
+  gtag("consent", "default", {
+    analytics_storage: analyticsConsent === "granted" ? "granted" : "denied",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    wait_for_update: 500
+  });
+  gtag("set", "ads_data_redaction", true);
+  gtag("js", new Date());
+  gtag("config", "G-F36FJ1EGTZ", {
+    anonymize_ip: true,
+    send_page_view: true,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+
+  if (analyticsConsent === null) {
+    window.addEventListener("DOMContentLoaded", function () {
+      const banner = document.createElement("section");
+      banner.className = "analytics-consent";
+      banner.setAttribute("aria-label", "Analytics cookie notice");
+      banner.innerHTML =
+        '<p>Ben Chan Music uses Google Analytics to understand aggregate site use. Analytics cookies are optional.</p>' +
+        '<div><button type="button" data-analytics-choice="denied">Decline</button>' +
+        '<button type="button" data-analytics-choice="granted">Allow analytics</button></div>';
+
+      banner.addEventListener("click", function (event) {
+        const button = event.target.closest("[data-analytics-choice]");
+        if (!button) return;
+
+        const choice = button.getAttribute("data-analytics-choice");
+        try {
+          window.localStorage.setItem(analyticsConsentKey, choice);
+        } catch (_) {
+          // The choice still applies to this page when browser storage is unavailable.
+        }
+
+        gtag("consent", "update", {
+          analytics_storage: choice,
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied"
+        });
+        banner.remove();
+      });
+
+      document.body.appendChild(banner);
+    });
+  }
+</script>

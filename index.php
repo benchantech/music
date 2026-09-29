@@ -14,15 +14,8 @@
     <style>
       iframe{width:100%; height: 580px; overflow: hidden}
     </style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162089981-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162089981-1');
-</script>
+<!-- This legacy PHP file is not part of the GitHub Pages build. GA4 is
+     configured for the deployed Jekyll site in _includes/head-custom.html. -->
   </head>
   <body>
 <?php
