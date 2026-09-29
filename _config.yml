@@ -43,3 +43,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+  - package.json
+  - ops
+  - scripts
